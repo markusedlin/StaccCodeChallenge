@@ -9,15 +9,15 @@
     * make sure directory is \myapp
     * Enter in terminal: npm start
     -> should open browser with correct local host and port
-## Hvordan ende prosjektet
+# Hvordan ende prosjektet
+    * ctrl+c in the terminal
 
 
-How it works:
+## Kommentarer
+- How it works:
     * Enter a name or beginning of a name and click search
     * Loading 'animation' pops up and then disappears on result
     * Can enter a new name to change the KYC search.
-
-## Kommentarer
 - What I would like to add:
     * autocomplete for when typing a name
     * table within the return function(isn't as trivial as expected with react)
@@ -33,7 +33,11 @@ How it works:
 
 - Issues:
     * Gap between Alias and first seen if the person doesn't have more than one alias
-    * Huge node_modules folder containing lots of files, not knowing how many of them are necessary. I'm not super familiar with this, and have decided to keep it.
+    * Huge node_modules folder containing lots of files, only runnable if you have folder (only way I found a solution so quickly, as i'm not super familiar with node)
+        - get folder:
+            * go into root directory
+            * npm install -g create-react-app
+            * create-react-app github-requester
 
 - Struggled with:
     * Setting it up within only an html file after already setting it up through a node localhost, so I stuck with the npm method
