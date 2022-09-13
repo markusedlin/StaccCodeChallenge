@@ -44,3 +44,4 @@
     * React useEffect - having the get method within the useEffect based on an onChange input value.
         - Challening because when the initial render occurs, it tries to 'get' nothing which logs an error
             - (does it matter if it logs an error? as long as it doesn't show anything on the screen.)
+    * Node and whole node_modules folder. Could not figure out how to get around this, besides perhaps creating a basic html file with script tag.
